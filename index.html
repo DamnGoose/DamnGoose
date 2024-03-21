@@ -6,14 +6,44 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body class="prikol">
+<div class="not-interact" style="margin-bottom: 3%; font-size: 92px; text-align: ">TheFuningGoose</div>
 
-<div class="not-interact" style="margin-bottom: 3%">Pages:</div>
+<div class="not-interact" style="margin-bottom: 2%">LINKS:</div>
 
-<p><a class="negro" href="https://js.ss14.su/ru/memberspages/thefuninggoose/station-objectives">STATION-OBJECTIVES</a></p>
-<p><a class="negro" href="https://js.ss14.su/ru/memberspages/thefuninggoose/new-station-objectives">NEW-STATION-OBJECTIVES</a></p>
-<p><a class="negro" href="https://js.ss14.su/ru/memberspages/thefuninggoose/meow">MEOW</a></p>
-<p><a class="negro" href="https://js.ss14.su/ru/memberspages/Thefuninggoose/meh">MEH</a></p>
-<p><a class="negro" href="https://js.ss14.su/ru/memberspages/thefuninggoose/knowledge">KNOWLEDGE</a></p>
+<p><a class="negro" href="https://js.ss14.su/">SS14 WIKI</a></p>
+<p><a class="negro" href="https://discord.gg/white-dream-funclub-891624095630909493">WHITE DREAM</a></p>
+<p><a class="negro" href="https://discord.gg/v7JpQ4ng">DISCORD</a></p>
+<p><a class="negro" href="https://boosty.to/gayjojo">BOOSTY</a></p>
+<p><a class="negro" href="https://github.com/DamnGoose">GIT</a></p>
+<p><a class="negro" href=" https://damngoose.github.io/meowmew/">MEOW</a></p>
 
 </body>
+<audio id="sound">
+    <source src="main\sounds\click.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="biba">
+    <source src="main\sounds\hover.mp3" type="audio/mpeg">
+</audio>
+<script>
+    function playclickSound() {
+        var sound = document.getElementById('sound');
+        sound.play();
+    }
+
+    var clickElements = document.querySelectorAll('.negro');
+    clickElements.forEach(function(element) {
+        element.addEventListener('click', playclickSound);
+    });
+
+    function playHoverSound() {
+        var sound = document.getElementById('biba');
+        sound.play();
+    }
+
+    var hoverElements = document.querySelectorAll('.negro');
+    hoverElements.forEach(function(element) {
+        element.addEventListener('mouseenter', playHoverSound);
+    });
+</script>
 </html>

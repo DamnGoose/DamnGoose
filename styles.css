@@ -2,15 +2,13 @@ a {
   text-decoration: none!important
 }
 p {
-  margin: -1%
+  margin: 0%
 }
 .not-interact {
   background-clip: text;
   -webkit-background-clip: text;
   color: #5e5e5e!important;
   mix-blend-mode: difference;
-  font-weight: 1000!important;
-  font-size: 42px;
   text-shadow: 0 0 5px rgba(84,84,84,.6)
 }
 .negro {
@@ -18,22 +16,24 @@ p {
   -webkit-background-clip: text;
   color: #5e5e5e!important;
   mix-blend-mode: difference;
-  font-weight: 1000!important;
-  font-size: 42px;
-  text-shadow: 0 0 10px rgba(84,84,84,.6);
+  filter: drop-shadow(3px 3px 5px #000);
   transition: .4s
 }
 .negro:hover {
   color: #b5000c!important;
-  mix-blend-mode: none;
-  text-shadow: 0 0 10px rgba(100,100,100,.6);
+  mix-blend-mode: overlay;
   filter: drop-shadow(3px 3px 5px #000);
-  transform: scale(1.5)!important
+  transform: scale(2%)!important
 }
 body {
-  background: url(https://i.pinimg.com/originals/fd/b2/1c/fdb21c0e4f3dbb6ccd9a63c68fce8645.gif) center/cover no-repeat;
-  mix-blend-mode: difference;
-  padding: 100px;
-  border-radius: 10px;
-  box-shadow: 0 0 20px #000
+  background: url(https://i.pinimg.com/originals/fd/b2/1c/fdb21c0e4f3dbb6ccd9a63c68fce8645.gif) center/cover no-repeat fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 42px;
+  font-weight: 1000!important;
+  background-color: #aaa;
+  background-blend-mode: difference;
+  padding-left: 100px;
+  padding-top: 50px;
+  overflow-x: hidden;
+  margin-top: 0%
 }
