@@ -30,7 +30,7 @@ p {
   filter: drop-shadow(3px 3px 5px #000);
   transform: scale(1.5)!important
 }
-* {
+body {
   background: url(https://i.pinimg.com/originals/fd/b2/1c/fdb21c0e4f3dbb6ccd9a63c68fce8645.gif) center/cover no-repeat;
   mix-blend-mode: difference;
   padding: 100px;
