@@ -1,0 +1,39 @@
+a {
+  text-decoration: none!important
+}
+p {
+  margin: -1%
+}
+.not-interact {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: #5e5e5e!important;
+  mix-blend-mode: difference;
+  font-weight: 1000!important;
+  font-size: 42px;
+  text-shadow: 0 0 5px rgba(84,84,84,.6)
+}
+.negro {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: #5e5e5e!important;
+  mix-blend-mode: difference;
+  font-weight: 1000!important;
+  font-size: 42px;
+  text-shadow: 0 0 10px rgba(84,84,84,.6);
+  transition: .4s
+}
+.negro:hover {
+  color: #b5000c!important;
+  mix-blend-mode: none;
+  text-shadow: 0 0 10px rgba(100,100,100,.6);
+  filter: drop-shadow(3px 3px 5px #000);
+  transform: scale(1.5)!important
+}
+.prikol {
+  background: url(https://i.pinimg.com/originals/fd/b2/1c/fdb21c0e4f3dbb6ccd9a63c68fce8645.gif) center/cover no-repeat;
+  mix-blend-mode: difference;
+  padding: 100px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #000
+}
