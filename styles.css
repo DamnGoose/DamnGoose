@@ -27,7 +27,7 @@ p {
 }
 body {
   background: url('https://i.pinimg.com/originals/fd/b2/1c/fdb21c0e4f3dbb6ccd9a63c68fce8645.gif') center/cover no-repeat fixed;
-  font-family: Helvetica;
+  font-family: url('main\font.ttf');
   font-size: 42px;
   font-weight: 1000;
   background-color: #aaa;
