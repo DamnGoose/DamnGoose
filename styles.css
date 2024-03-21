@@ -1,5 +1,5 @@
 a {
-  text-decoration: none!important
+  text-decoration: none
 }
 p {
   margin: 0%
@@ -7,29 +7,29 @@ p {
 .not-interact {
   background-clip: text;
   -webkit-background-clip: text;
-  color: #5e5e5e!important;
+  color: #5e5e5e;
   mix-blend-mode: difference;
   text-shadow: 0 0 5px rgba(84,84,84,.6)
 }
 .negro {
   background-clip: text;
   -webkit-background-clip: text;
-  color: #5e5e5e!important;
+  color: #5e5e5e;
   mix-blend-mode: difference;
   filter: drop-shadow(3px 3px 5px #000);
   transition: .4s
 }
 .negro:hover {
-  color: #b5000c!important;
+  color: #b5000c;
   mix-blend-mode: overlay;
   filter: drop-shadow(3px 3px 5px #000);
-  transform: scale(2%)!important
+  transform: scale(2%)
 }
 body {
   background: url('https://i.pinimg.com/originals/fd/b2/1c/fdb21c0e4f3dbb6ccd9a63c68fce8645.gif') center/cover no-repeat fixed;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 42px;
-  font-weight: 1000!important;
+  font-weight: 1000;
   background-color: #aaa;
   background-blend-mode: difference;
   padding-left: 100px;
