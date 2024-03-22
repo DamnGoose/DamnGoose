@@ -51,14 +51,12 @@ body {
     font-size: calc(3vw + 3vh);
     max-width: 90%;
     transition: .4s;
-    padding-left: -50px;
-    padding-right: 1%;
   }  
   .nick {
     font-size: calc(3vw + 3vh);
   }
   body {
-    padding-left: -50px;
+    padding-left: 50px;
     padding-right: 1%;
   }
 }
