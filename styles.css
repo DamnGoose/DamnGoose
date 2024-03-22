@@ -51,20 +51,14 @@ body {
     font-size: calc(3vw + 3vh);
     max-width: 90%;
     transition: .4s;
-<<<<<<< HEAD
-=======
     padding-left: -50px;
     padding-right: 1%;
->>>>>>> cd29de7b1bd68013138d3c2e219ce78a4abaaf1c
   }  
   .nick {
     font-size: calc(3vw + 3vh);
   }
-<<<<<<< HEAD
   body {
     padding-left: -50px;
     padding-right: 1%;
   }
-=======
->>>>>>> cd29de7b1bd68013138d3c2e219ce78a4abaaf1c
 }
