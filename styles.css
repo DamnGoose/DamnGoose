@@ -16,7 +16,6 @@ p {
   -webkit-background-clip: text;
   color: #5e5e5e!important;
   mix-blend-mode: difference;
-  filter: drop-shadow(3px 3px 5px #000);
   transition: .4s
 }
 .negro:hover {
