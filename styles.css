@@ -6,7 +6,7 @@ p {
 }
 .nick {
   margin-bottom: 3%!important;
-  font-size: 92px;
+  font-size: 92px!important;
 }
 .not-interact {
   background-clip: text;
