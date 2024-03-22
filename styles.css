@@ -4,18 +4,24 @@ a {
 p {
   margin: 0%
 }
+.nick {
+  margin-bottom: 3%;
+  font-size: 92px;
+}
 .not-interact {
   background-clip: text;
   -webkit-background-clip: text;
   color: #5e5e5e!important;
   mix-blend-mode: difference;
-  text-shadow: 0 0 5px rgba(84,84,84,.6)
+  text-shadow: 0 0 5px rgba(84,84,84,.6);
+  margin-bottom: 2%
 }
 .negro {
   background-clip: text;
   -webkit-background-clip: text;
   color: #5e5e5e!important;
   mix-blend-mode: difference;
+  filter: drop-shadow(3px 3px 5px #000);
   transition: .4s
 }
 .negro:hover {
@@ -32,8 +38,23 @@ body {
   background-color: #aaa;
   background-blend-mode: difference;
   padding-left: 100px;
-  padding-right: 100px;
   padding-top: 50px;
   overflow-x: hidden;
   margin-top: 0%
+}
+
+@media (orientation: portrait) {
+  .not-interact,
+  .negro,
+  .nick {
+    margin-bottom: 3%;
+    font-size: calc(3vw + 3vh);
+    max-width: 90%;
+    transition: .4s;
+    padding-left: -50px;
+    padding-right: 1%;
+  }  
+  .nick {
+    font-size: calc(3vw + 3vh);
+  }
 }
