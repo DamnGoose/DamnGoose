@@ -61,6 +61,9 @@ body {
   .not-interact {
     font-size: calc(3vw + 4vh);
   }
+  .negro,
+  .not-interact,
+  .nick,
   body {
     text-align: center!important;
     padding-left: 10px;
