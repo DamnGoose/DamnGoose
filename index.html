@@ -31,23 +31,23 @@
 </audio>
 <script>
     function playclickSound() {
-        var sound = document.getElementById('sound');
-        sound.play();
+        var sound = document.getElementById('sound')
+        sound.play()
     }
 
-    var clickElements = document.querySelectorAll('.negro');
+    var clickElements = document.querySelectorAll('.negro')
     clickElements.forEach(function(element) {
-        element.addEventListener('click', playclickSound);
-    });
+        element.addEventListener('click', playclickSound)
+    })
 
     function playHoverSound() {
-        var sound = document.getElementById('biba');
-        sound.play();
+        var sound = document.getElementById('biba')
+        sound.play()
     }
 
-    var hoverElements = document.querySelectorAll('.negro');
+    var hoverElements = document.querySelectorAll('.negro')
     hoverElements.forEach(function(element) {
-        element.addEventListener('mouseenter', playHoverSound);
-    });
+        element.addEventListener('mouseenter', playHoverSound)
+    })
 </script>
 </html>
